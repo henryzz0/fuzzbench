@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-FROM ubuntu:xenial
+FROM ubuntu:xenial-20210416
 
 # Build Python 3.8.6 from source because pandas doesn't support xenial's
 # Python3 version (3.5.2).
